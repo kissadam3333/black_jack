@@ -1,0 +1,67 @@
+.gameDisplay {
+  color: rgb(120, 204, 141);
+  visibility: hidden;
+  margin: 0px auto 0px auto;
+  text-align: center;
+}
+
+.hit-button {
+  background-color: #fbd80f;
+  border: none;
+  color: white;
+  padding: 30px 64px;
+  text-align: center;
+  font-size: 32px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.stay-button {
+  background-color: #e71c1c;
+  border: none;
+  color: white;
+  padding: 30px 64px;
+  text-align: center;
+  font-size: 32px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.start-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 30px 64px;
+  text-align: center;
+  display: flex;
+  font-size: 32px;
+  cursor: pointer;
+  margin: 10% auto 0px auto;
+}
+
+br {
+  line-height: 50px;
+}
+
+.lost-or-won {
+  display: none;
+  /* display: block; */
+  color: crimson;
+  font-size: 75px;
+
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.restart {
+  display: none;
+  /* display: block; */
+  color: crimson;
+  font-size: 35px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
